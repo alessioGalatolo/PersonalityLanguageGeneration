@@ -6,7 +6,7 @@ data = pd.read_csv("cross_study_data/data4jasp.csv")
 sns.set_theme()
 sns.set_style("whitegrid")
 sns.set_palette("colorblind")
-# sns.set_context("talk")
+sns.set_context("talk")
 
 
 # plot extraversion, ext/int in x, model in y
@@ -20,7 +20,8 @@ sns.catplot(
     kind="point",
     dodge=True,
     sharex=True,
-    sharey=True
+    sharey=True,
+    legend=""
 ).savefig("cross_study_data/plots/cross_study_extraversion")
 
 # plot fluency, ext/int in x, model in y
@@ -34,5 +35,6 @@ sns.catplot(
     hue_order=["Expert", "GPT-3", "STRAP"],
     dodge=True,
     sharex=True,
-    sharey=True
+    sharey=True,
+    legend_out=False
 ).savefig("cross_study_data/plots/cross_study_fluency")

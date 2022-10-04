@@ -20,7 +20,8 @@ sns.catplot(
     hue_order=["Expert", "GPT-3", "STRAP"],
     dodge=True,
     sharex=True,
-    sharey=True
+    sharey=True,
+    legend=""
 ).savefig("video_study_data/plots/video_study_extraversion")
 
 # plot fluency, ext/int in x, model in y
@@ -34,7 +35,8 @@ sns.catplot(
     hue_order=["Expert", "GPT-3", "STRAP"],
     dodge=True,
     sharex=True,
-    sharey=True
+    sharey=True,
+    legend_out=False,
 ).savefig("video_study_data/plots/video_study_fluency")
 
 # plot fluency, ext/int in x, model in y
@@ -48,5 +50,6 @@ sns.catplot(
     kind="point",
     dodge=True,
     sharex=True,
-    sharey=True
+    sharey=True,
+    legend=""
 ).savefig("video_study_data/plots/video_study_emotions")

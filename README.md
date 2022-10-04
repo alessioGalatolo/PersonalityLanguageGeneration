@@ -1,4 +1,4 @@
-# Is "Psycho Shaman irl is here and i’m paid TVD Life!'' an Extroverted Version of "Hello and welcome''?? Development and Evaluation of Automatic Generation of Robotic Personality
+# Personality-Adapted Language Generation for Social Robots
 
 Anonymised code for paper submission to HRI conference 2023.
 
@@ -27,7 +27,7 @@ Other specific requirements can be found in each subfolder. E.g. requirements fo
 Start by cloning this repo.
 ```bash
 git clone <repo_link_anonymised_for_review>
-cd PsychoShamanIRL
+cd <repo_name_anonymised_for_review>
 ```
 Make sure pytorch (>1.9.0) is installed (see official documentation for the best way of doing this) in your working environment.
 ```bash
