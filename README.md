@@ -1,6 +1,6 @@
 # Personality-Adapted Language Generation for Social Robots
 
-Anonymised code for paper submission to HRI conference 2023.
+Anonymised code for paper submission to conference 2023.
 
 ## Repository structure
 ```bash
