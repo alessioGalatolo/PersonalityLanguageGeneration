@@ -1,6 +1,6 @@
 # Personality-Adapted Language Generation for Social Robots
 
-Anonymised code for paper submission to conference 2023.
+Code for paper submission to RO-MAN 2023.
 
 ## Repository structure
 ```bash
@@ -26,8 +26,8 @@ Other specific requirements can be found in each subfolder. E.g. requirements fo
 ## Instructions for using STRAP personality transfer checkpoints
 Start by cloning this repo.
 ```bash
-git clone <repo_link_anonymised_for_review>
-cd <repo_name_anonymised_for_review>
+git clone https://github.com/alessioGalatolo/PersonalityLanguageGeneration
+cd PersonalityLanguageGeneration
 ```
 Make sure pytorch (>1.9.0) is installed (see official documentation for the best way of doing this) in your working environment.
 ```bash
@@ -43,9 +43,9 @@ For use in inference the only other library needed is `transformers`, install wi
 ```bash
 pip install transformers
 ```
-Then go to the release page of this repo [<repo_link_anonymised_for_review>/releases/](https://github.com/) and download `STRAP_essays.tar.gz`. Extract it in the project folder.
+Then go to the release page of this repo [PersonalityLanguageGeneration/releases/](https://github.com/alessioGalatolo/PersonalityLanguageGeneration/releases) and download `STRAP_essays.tar.gz`. Extract it in the project folder.
 ```bash
-wget <repo_link_anonymised_for_review>/releases/download/v1.0.0/STRAP_essays.tar.gz
+wget https://github.com/alessioGalatolo/PersonalityLanguageGeneration/releases/download/v1.0.0/STRAP_essays.tar.gz
 tar zxf STRAP_essays.tar.gz
 rm STRAP_essays.tar.gz
 ```
